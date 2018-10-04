@@ -1,3 +1,7 @@
+# OSU Cascades Talent Roster
+
+This project aims to help both students and employers by providing an easy to use interface that allows employers to find students based on various factors.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
