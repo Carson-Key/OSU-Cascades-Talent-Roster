@@ -1,0 +1,13 @@
+.HeaderContainer {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(215, 63, 9, 1);
+}
+
+.HeaderContainer p {
+  color: white;
+  font-size: 200%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin: 0;
+}
