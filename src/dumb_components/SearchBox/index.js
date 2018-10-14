@@ -3,7 +3,7 @@ import './index.css';
 
 import { Jumbotron } from 'reactstrap'
 
-class Header extends Component {
+class SearchBox extends Component {
   // TODO: clean this up, and use reactstrap - Colin
   render() {
     const { name, test } = this.props
@@ -42,4 +42,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default SearchBox;
