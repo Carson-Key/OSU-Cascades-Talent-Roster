@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
 
-import { Jumbotron } from 'reactstrap'
+import { Button, Form, FormGroup, Label, Input, FormText} from 'reactstrap'
 
 class SearchBox extends Component {
   // TODO: clean this up, and use reactstrap - Colin
@@ -9,33 +9,44 @@ class SearchBox extends Component {
     const { name, test } = this.props
 
     return (
-      <div class="filter-column">
-        <div class="filter-container">
-        <h3 class="filter-title"> Filter </h3>
-          <div class="filter-option">
-            <h4 class="filter-item-title"> Option 1 </h4>
-            <select class="filter-item-select">
-              <option> value 1 </option>
-              <option> value 2 </option>
-              <option> value 3 </option>
-            </select>
-          </div>
-          <div class="filter-option">
-            <h4 class="filter-item-title"> Option 2 </h4>
-            <select class="filter-item-select">
-              <option> value 1 </option>
-              <option> value 2 </option>
-              <option> value 3 </option>
-            </select>
-          </div>
-          <div class="filter-option">
-            <h4 class="filter-item-title"> Option 3 </h4>
-            <select class="filter-item-select">
-              <option> value 1 </option>
-              <option> value 2 </option>
-              <option> value 3 </option>
-            </select>
-          </div>
+      <div className="filter-column">
+        <div className="filter-container">
+        <h3 className="filter-title"> Filter </h3>
+
+        <FormGroup>
+          <Label for="exampleSelect">Select</Label>
+          <Input type="select" name="select" id="exampleSelect">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </Input>
+        </FormGroup>
+
+        <FormGroup>
+          <Label for="exampleSelect">Select</Label>
+          <Input type="select" name="select" id="exampleSelect">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </Input>
+        </FormGroup>
+
+        <FormGroup row>
+          <Label for="exampleSelect">Select</Label>
+          <Input type="select" name="select" id="exampleSelect">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </Input>
+        </FormGroup>
+
+
         </div>
       </div>
     );
